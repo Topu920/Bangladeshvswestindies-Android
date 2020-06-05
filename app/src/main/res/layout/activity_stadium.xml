@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stadium">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="600dp">
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/mirpur_stadium_0" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="The Sher-e-Bangla National Cricket Stadium \n(SBNCS; Bengali: শের-ই-বাংলা জাতীয় ক্রিকেট \nস্টেডিয়াম), also called Mirpur Stadium, is a \ncricket ground in Dhaka, the capital of \nBangladesh. The ground holds approximately 25,000 \npeople, and is named for the Bengali statesman A.\n K. Fazlul Huq. The ground was originally \nconstructed for football in the late 1980s, and \nfirst hosted matches at the 1987 Asian Club \nChampionship."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="অফিশিয়ালি শুরু"
+                android:textStyle="bold"
+                android:background="#3b9680"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_height="300dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="টেস্ট খেলা :"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="২৫ মে ২০০৭ বিপক্ষ দল ইন্ডিয়া"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="একদিনের খেলা :"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="১৮ ই ডিসেম্বর ২০০৫ বিপক্ষ দল স্কটল্যান্ড"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="টি২০ খেলা :"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="১১ ই অক্টবর ২০১১ বিপক্ষ দল ঊইন্ডিজ"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#3b9680"
+                android:layout_height="3dp">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="150dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="মোট টেস্ট খেলা >> ১৮"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="মোট একদিনের খেলা >> ১০৭"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="মোট টি২০ খেলা >> ৩৭"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="550dp">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/zahur" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Zohur Ahmed Chowdhury Stadium (Zahur Ahmed \nChowdhury Stadium) (Bengali: জহুর আহমেদ \nচৌধুরী স্টেডিয়াম), abbreviated as ZAC Stadium \nand previously known as Bir Shrestha Shahid \nRuhul Amin Stadium, is a cricket stadium located \nin the port city of Chittagong. It has a seating \ncapacity of around 20,000. It was returned to its \noriginal name in 2009 of Zahur Ahmed \nChowdhury Stadium after Bangladesh Awami \nLeague returned to power."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="অফিশিয়ালি শুরু"
+                android:textStyle="bold"
+                android:background="#3b9680"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_height="300dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="টেস্ট খেলা :"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="২৮শে ফেব্রুয়ারী ২০০৪ বিপক্ষ দল শ্রীলংকা"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="একদিনের খেলা :"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="২৫শে ফেব্রুয়ারী ২০০৬ বিপক্ষ দল শ্রীলংকা"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="টি২০ খেলা :"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="১২ই  ফেব্রুয়ারী ২০১৪ বিপক্ষ দল শ্রীলংকা"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#3b9680"
+                android:layout_height="3dp">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="150dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="মোট টেস্ট খেলা >> ১৭"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="মোট একদিনের খেলা >> ১৯"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="মোট টি২০ খেলা >> ১৭"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="550dp">
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/sylhet_international_cricket_stadium" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Sylhet International Cricket Stadium (Bengali: \nসিলেট আন্তর্জাতিক ক্রিকেট স্টেডিয়াম) also known as Sylhet \nStadium and previously known as Sylhet Divisional \nStadium) is a cricket stadium in Sylhet, \nBangladesh. The stadium went a thorough \nexpansion in 2013, to host matches for the 2014 \nICC World Twenty20 and 2014 ICC Women"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="অফিশিয়ালি শুরু"
+                android:textStyle="bold"
+                android:background="#3b9680"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_height="300dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="টেস্ট খেলা :"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="৩ নভেম্বর ২০১৮ বিপক্ষ দল শ্রীলংকা"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="একদিনের খেলা :"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="N/A"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="টি২০ খেলা :"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="১৮ই  ফেব্রুয়ারী ২০১৪ বিপক্ষ দল শ্রীলংকা"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#3b9680"
+                android:layout_height="3dp">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="150dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="মোট টেস্ট খেলা >> ০১"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="মোট একদিনের খেলা >> ০০"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:text="মোট টি20 খেলা >> ০৭"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

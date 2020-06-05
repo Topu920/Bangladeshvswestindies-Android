@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">বাংলাদেশ VS ওয়েস্ট ইন্ডিজ</string>
+    <string name="title_activity_play_time">PlayTime</string>
+    <string name="app_name1">খেলার সময়</string>
+
+    <string name="_2001">টেস্ট খেলায় রেকর্ড সমুহ (২০০১ সাল থেকে )</string>
+    <string name="_14">১৪ টি খেলা</string>
+    <string name="action_settings">Settings</string>
+</resources>

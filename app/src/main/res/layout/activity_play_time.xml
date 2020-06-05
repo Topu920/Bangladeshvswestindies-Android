@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayTime">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="25dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/bangladesh" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="বাংলাদেশ vs ইন্ডিজ \n1st Test Match"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/westindies" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="সময়: বিডি: ৯.৩০PM এবং উই: ১০.৩০AM \nতারিখ: নভেম্বর ২২,২০১৮; দিন: বৃহঃবার \nযহুর আহমেদ চৌধুরী স্টেডিয়াম, চিটাগাং" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#3b9680"
+            android:layout_height="3dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_height="70dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="30dp"
+                    android:scaleType="fitStart"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bangladesh" />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="বাংলাদেশ vs ইন্ডিজ \n1st Test Match"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="30dp"
+                    android:scaleType="fitStart"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/westindies" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="সময়: বিডি: ৯.৩০PM এবং উই: ১০.৩০AM \nতারিখ: নভেম্বর ৩০,২০১৮; দিন: শুক্রবার \nশের-ই-বাংলা জাতীয় স্টেডিয়াম, ঢাকা"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#3b9680"
+            android:layout_height="3dp">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/bangladesh" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="বাংলাদেশ vs ইন্ডিজ \n1st Day-Night ODI"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/westindies" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="সময়: বিডি: ২.০০PM এবং উই: ৩.০০AM \nতারিখ: ডিসেম্বর ৯,২০১৮; দিন: রবিবার \nশের-ই-বাংলা জাতীয় স্টেডিয়াম, ঢাকা"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#3b9680"
+            android:layout_height="3dp">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/bangladesh" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="বাংলাদেশ vs ইন্ডিজ \n2nd Day-Night ODI"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/westindies" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="সময়: বিডি: ২.০০PM এবং উই: ৩.০০AM \nতারিখ: ডিসেম্বর ১১,২০১৮; দিন: বুধবার \nশের-ই-বাংলা জাতীয় স্টেডিয়াম, ঢাকা"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#3b9680"
+            android:layout_height="3dp">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/bangladesh" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="বাংলাদেশ vs ইন্ডিজ \n3rd Day-Night ODI"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/westindies" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="সময়: বিডি: ২.০০PM এবং উই: ৩.০০AM \nতারিখ: ডিসেম্বর ১৪,২০১৮; দিন: শুক্রবার \n সিলেট আন্তর্জাতিক ক্রিকেট স্টেডিয়াম"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#3b9680"
+            android:layout_height="3dp">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/bangladesh" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="বাংলাদেশ vs ইন্ডিজ \n1st Day-Night T20"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/westindies" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="সময়: বিডি: ৬.০০PM এবং উই: ৭.০০AM \nতারিখ: ডিসেম্বর ১৭,২০১৮; দিন: মঙ্গলবার \nসিলেট আন্তর্জাতিক ক্রিকেট স্টেডিয়াম"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#3b9680"
+            android:layout_height="3dp">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/bangladesh" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="বাংলাদেশ vs ইন্ডিজ \n2nd Day-Night T20"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/westindies" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="সময়: বিডি: ৬.০০PM এবং উই: ৭.০০AM \nতারিখ: ডিসেম্বর ২০,২০১৮; দিন: বৃহঃবার \nশের-ই-বাংলা জাতীয় স্টেডিয়াম, ঢাকা"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#3b9680"
+            android:layout_height="3dp">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/bangladesh" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="বাংলাদেশ vs ইন্ডিজ \n3rd Day-Night T20"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="30dp"
+                        android:scaleType="fitStart"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/westindies" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="সময়: বিডি: ৬.০০PM এবং উই: ৭.০০AM \nতারিখ: ডিসেম্বর ২২,২০১৮; দিন: শনিবার \nশের-ই-বাংলা জাতীয় স্টেডিয়াম, ঢাকা"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
